@@ -1,0 +1,248 @@
+body,#title{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #2980b9 url('https://static.tumblr.com/03fbbc566b081016810402488936fbae/pqpk3dn/MRSmlzpj3/tumblr_static_bg3.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+
+
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+}
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    text-align: center;
+    margin-left:13%;
+}
+.intro{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-left: 13%;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/*containers*/
+
+.container-fluid{
+    padding: 5% 15% 5%;
+}
+
+.feature-icon{
+    width: 20%;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+.white-section{
+    background-color: white;
+}
+
+/* Navigation bar */
+
+.navbar{
+    padding-top:0 0 2.5rem; 
+    
+    
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    font-size: 1rem;
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family:'Montserrat' ;
+}
+
+/* Download button */
+
+.show-button{
+    margin-top: 5%;    
+    margin-bottom: 5%;       /* btn-color: #F01D65; */
+    background-color: #F01D65;
+    margin-left: 13%;
+}
+.download-button{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 13%;
+    padding-left: 1rem;
+}
+
+/* Title Section */
+
+#title{
+    background-color: #0E3EDA;
+    color: white;
+    text-align: left;
+    padding:  2% 15%;
+}
+
+
+.title-image{
+    
+    width: 16%;
+    right: 25%;
+    transform: rotate(25deg);
+    position: absolute;
+}
+
+/* Features */
+
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.feature-title{
+    font-size: 1.5rem;
+}
+.feature-box{
+    padding: 5%;
+}
+.icon{
+   color: #0E3EDA ; 
+   margin-bottom: 1rem; 
+}
+.icon:hover{
+    color: #ba4cff;
+}
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color:#73A9AD;
+    color: whitesmoke;
+    
+}
+.testimonial-text{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#press{
+    background-color: white;
+    
+    padding-bottom: 3%;
+
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing{
+    padding: 100px;
+    
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-coloumn{
+    padding: 3% 2%;
+}
+/* Media query */
+@media (max-width:1028px){
+    #title{
+        text-align: center;
+    }
+}
+/* footer */
+
+.cta-heading{
+    font-family:'Montserrat';
+    letter-spacing: 3px;
+    font-size: 3rem;
+    line-height: 2.5rem;
+    margin: 20px 10px;
+}
+#cta{
+    background-color: white;
+    color: black;
+    padding: 7% 15% ;
+}
+
+#footer{
+    background-color: #8f8f8f;
+    padding: 7% 15%;
+
+}
+.footer text{
+    color: black;
+}
+.social-icon{
+    margin: 20px 10px;
+}
